@@ -1,0 +1,15 @@
+name: phi
+channels:
+  - conda-forge
+dependencies:
+  - jupyterlab
+  - pandas
+  - ca-certificates
+  - certifi
+  - openssl
+  - transformers
+  - sentencepiece
+  - notebook
+  - pyzmq[version='<25']
+  - jupyter_client[version='<8']
+prefix: /Users/manibatra/mambaforge/envs/phi
